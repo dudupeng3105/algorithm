@@ -18,3 +18,37 @@
 #                 break
 #         total = total + sum(buy_day_list)
 #     print(f'#{i+1} {total}')
+
+# 1956 간단한 369 게임
+#
+# N = int(input())   # 33
+# for x in range(1, N+1):
+#     cnt = 0
+#     for str_x in str(x):
+#         if str_x in ['3', '6', '9']:
+#             cnt += 1
+#     if cnt > 0:
+#         print('-'* cnt,end='')
+#     else:
+#         print(x, end='')
+#     if x < N:
+#         print(' ', end='')
+#     else:
+#         pass
+
+# 2007
+# input KOREAKOREAKOREAKOREAKOREAKOREA
+# output #1 5
+# N = int(input())
+#
+# for test_case in range(N):
+#     given_list = input()
+#     given_list = list(given_list)
+#     max_len_unit = 0
+#     for i in range(1,11):
+#         one_unit = given_list[:i]
+#         check_unit = given_list[i: 2*i]
+#         if one_unit == check_unit:
+#             max_len_unit = i
+#             break  # 문제조건이 좀 이상해서 조건되면 바로 탈출시킴
+#     print(f'#{test_case+1} {max_len_unit}')
