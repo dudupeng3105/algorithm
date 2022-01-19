@@ -89,6 +89,7 @@ print(dict_list_sum([{'name': 'kim', 'age': 12},
                      {'name': 'lee', 'age': 4}]))
 
 
+
 # WS 3
 def all_list_sum(arr):
     total = 0
