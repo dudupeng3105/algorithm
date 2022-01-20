@@ -105,7 +105,7 @@ banned = ["hit"]
 
 # 4 - 1. 리스트 컴프리헨션, Counter 객체 사용
 def most_common_word(para, ban):
-    words = [word for word in re.sub(r'[^a-zA-Z0-9]',' ', para).lower().split()
+    words = [word for word in re.sub(r'[^a-zA-Z0-9]', ' ', para).lower().split()
              if word not in ban]
 
     counts = collections.Counter(words)
@@ -114,12 +114,14 @@ def most_common_word(para, ban):
 
 
 result = most_common_word(paragraph, banned)
-print(result.most_common(1)) # 이러면 키랑 밸류 보임
+print(result.most_common(1))  # 이러면 키랑 밸류 보임
 print(result.most_common(1)[0][0])
 
 # 5. 그룹 애너그램
 # 문자를 재배열하여 다른 뜻을 가진 단어로 바꾸는 것
 given_input = ['eat', 'tea', 'tan', 'ate', 'nat', 'bat']
+
+
 # 5-1 정렬하여 딕셔너리에 추가
 
 
@@ -133,5 +135,39 @@ def group_anagrams(s):
     print(anagrams)
     return list(anagrams.values())
 
+
 result = group_anagrams(given_input)
 print(result)
+
+
+# 6 가장 긴 팰린드롬 부분 문자열
+
+# 6 - 1 중앙을 중심으로 확장하는 풀이
+# longest common substing (LCS)
+# 투포인터 사용
+
+def longest_palindrome(s):
+    # 팰린드롬 판별 및 투 포인터 확장
+    def expand(left, right):
+        print(left, right)
+        while left >= 0 and right < len(s) and s[left] == s[right]:
+            left -= 1
+            right += 1
+        print(s[left + 1:right])
+        return s[left + 1:right]  # left + 1 ~ right - 1
+
+    # 해당사항 없을 때 빠르게 리턴
+    if len(s) < 2 or s == s[::-1]:
+        return s
+
+    result = ''
+    # 슬라이딩 윈도우 우측으로 이동
+    for i in range(len(s) - 1):
+        result = max(result,
+                     expand(i, i + 1),
+                     expand(i, i + 2),
+                     key=len)
+    return result
+
+
+print(longest_palindrome('babadnannan'))
