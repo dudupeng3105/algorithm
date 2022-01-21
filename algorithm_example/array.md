@@ -41,3 +41,29 @@ new_allocated = (size_t)newsize + (newsize >> 3) + (newsize < 9 ? 3 : 6);
 - 위 사진에서 거북이는 재할당 될때 삽입시간이 느리다는 표현 O(n) / 보통은 삽입 빠름 O(1)
 
 ## 실습 파일 참조...
+
+#### 투 포인터
+
+![Two Pointers-Eugene and an Array. Two pointers is an algorithmic… | by  Millennial Pirate | The Startup | Medium](array.assets/0LKzZZ6fZKx6HeOXu.png)
+
+- 대개는 시작점과 끝점 또는 왼쪽 포인터와 오른쪽 포인터 두 지점을 기준으로 하는 문제 풀이 전략
+- 배열이 정렬되어 있어야 유용
+- 슬라이싱 윈도우와 비슷
+
+### 최대값과 최솟값
+
+- 최댓값과 최솟값의 초깃값을 지정하는 방법에는 여러 가지가 있다. 최댓값에는 가장 낮은 값을 초깃값으로 해야 어떤 값이든 최댓값과 교체될 수 있다. 반대도 마찬가지
+
+```python
+mx = -sys.maxsize
+mn = sys.maxsize
+
+mx = float('-inf')
+mn = float('inf')
+
+# 임의로 999999와 같은 값을 지정하는 것이 가장 worst임 주의!
+```
+
+- 파이썬의 숫자형은 임의 정밀도(Arbitrary-Precision)를 지원하며 사실상 무한대의 값을 지정할 수 있다.
+- 파이썬에서는 sys.maxsize로 처리하는 정도만으로도 충분히 모든 테케 통과 가능
+- 코테에서 한쪽 구석에 'n은 0< n < 5000' 사이의 값 --> 이 경우 이 기준에 맞추면 됨
