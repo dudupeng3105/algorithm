@@ -231,4 +231,211 @@
 #     print(f'#{tc+1} {checker(sudoku_map)}')
 
 # 1970 쉬운 거스름돈돈
+# 50000, 10000, 5000, 1000, 500, 100, 50, 10
+# test_case = int(input())
+# money_list = [50000, 10000, 5000, 1000, 500, 100, 50, 10]
+# for tc in range(test_case):
+#     N = int(input())
+#     result_list = [0 for x in range(8)]
+#     print(f'#{tc+1}')
+#     result = ''
+#     for i in range(8):
+#         num = N // money_list[i]
+#         result_list[i] = num
+#         N = N - num * money_list[i]
+#         result = result + str(num) + ' '
+    
+#     print(result.rstrip())
 
+# 1966 숫자를 정렬하자
+# # 주어진 N 길이의 숫자열을 오름차순으로 정렬하여 출력하라
+# test_case = int(input())
+# for tc in range(test_case):
+#     N = int(input())
+#     seq = list(map(int, input().split()))
+#     seq.sort()
+#     print(f'#{tc+1}', end=' ')
+#     for i in range(N-1):
+#         print(seq[i], end=' ')
+
+#     print(seq[N-1])
+    
+# 1961 숫자 배열 회전
+# def rotate_90(arr):
+#     arr_2 = [[0 for _ in range(N)] for __ in range(N)]
+#     for row in range(N):
+#         for col in range(N):
+#             arr_2[col][N - 1 - row] = arr[row][col]
+
+#     return arr_2
+
+
+# test_case = int(input())
+# for tc in range(test_case):
+#     N = int(input())
+#     arr = [[0 for _ in range(N)] for __ in range(N)]
+#     result_list = [[0 for _ in range(N)] for __ in range(N)]
+#     for i in range(N):
+#         arr[i] = list(map(int, input().split()))
+
+#     for r in range(3): # 90, 180, 270
+#         arr = rotate_90(arr)
+#         for i in range(N):
+#             if r == 0:
+#                 result_list[i] = arr[i]        
+#             else:
+#                 result_list[i] += arr[i]
+
+#     print(f'#{tc+1}')
+#     for i in range(N):
+#         for j in range(len(result_list[i])-1):
+#             if (j+1) % N == 0:
+#                 print(result_list[i][j], end='')
+#                 print(' ',end='')            
+#             else:
+#                 print(result_list[i][j], end='')
+#         print(result_list[i][len(result_list[i])-1]) # 마지막 요소
+
+# 1959 두 개의 숫자열
+# def max_multiplication(short_list, long_list):
+#     result_total = 0
+#     for i in range(len(long_list) - len(short_list) + 1):
+#         total = 0
+
+#         for j in range(len(short_list)):
+#             total += short_list[j] * long_list[j + i]
+
+#         result_total = max(total, result_total)
+    
+#     return result_total
+
+# test_case = int(input())
+# for tc in range(test_case):
+#     N, M = map(int,input().split())
+#     A_list = list(map(int, input().split()))
+#     B_list = list(map(int, input().split()))
+#     if N > M:
+#         print(f'#{tc + 1} {max_multiplication(B_list, A_list)}')
+#     else:
+#         print(f'#{tc + 1} {max_multiplication(A_list, B_list)}')
+
+# 1954 달팽이 숫자
+# test_case = int(input())
+# for tc in range(test_case):
+#     N = int(input())
+#     arr = [[0 for _ in range(N)] for __ in range(N)]
+#     num = 1 # 1~n*n 채워넣기
+#     i = 0
+#     j = 0
+#     path_checker = 1 # x 축 양의 방향 전진
+#     while num < N**2 + 1:    
+#         arr[i][j] = num        
+#         if path_checker == 1: # x 축 양의 방향 전진
+#             if j == N-1 or arr[i][j+1]:
+#                 path_checker = 4 # y 축 음의 방향으로 전환            
+#                 i += 1
+#             else:
+#                 j += 1
+        
+#         elif path_checker == 4: # y 축 음의 방향으로 전환
+#             if i == N-1 or arr[i+1][j]:
+#                 path_checker = 3 # x 축 음의 방향 전진            
+#                 j -= 1
+#             else:
+#                 i += 1
+        
+#         elif path_checker == 3: # x 축 음의 방향 전진
+#             if j == 0 or arr[i][j-1]:
+#                 path_checker = 2 # y 축 양의 방향 전진            
+#                 i -= 1
+#             else:
+#                 j -= 1
+        
+#         elif path_checker == 2: # y 축 양의 방향 전진
+#             if i == 0 or arr[i-1][j]:
+#                 path_checker = 1 # x 축 양의 방향 전진            
+#                 j += 1
+#             else:
+#                 i -= 1
+        
+#         num += 1
+
+#     print(f'#{tc + 1}')
+#     for row in arr:
+#         print(*row)
+
+# # 1948 날짜 계산기
+# month_days = [0, 31, 28, 31, 30, 31\
+#             ,30, 31, 31, 30, 31, 30, 31]
+# test_case = int(input())
+# for tc in range(test_case):
+#     m1, d1, m2, d2 = map(int, input().split())
+
+#     if m1 == m2: # 달이 같은 경우
+#         print(f'#{tc + 1} {d2 - d1 + 1}')
+#     else:
+#         total_days = month_days[m1] - d1 + 1  # 첫 달 날짜     
+        
+#         for i in range(m1 + 1, m2): # m1+1 ~ m2 -1 달 날짜 합침
+#             total_days += month_days[i]
+
+#         total_days += d2 # 마지막 달 날짜 합산
+
+#         print(f'#{tc + 1} {total_days}')
+
+# 1946 간단한 압출 풀기
+# test_case = int(input())
+# for tc in range(test_case):
+#     result_str = ''
+#     N = int(input())
+#     for _ in range(N):
+#         c, k = input().split()
+#         k = int(k)
+#         result_str += c*k
+
+#     print(f'#{tc + 1}')
+#     if len(result_str) < 10:
+#         print(result_str[:])
+#     else:
+#         for i in range(len(result_str)//10):
+#             print(result_str[10*i: 10*(i+1)])
+#         print(result_str[10*(i+1):])    
+
+# 1945 간단한 소인수분해
+# test_case = int(input())
+# num_list = [2, 3, 5, 7, 11]
+# result_list = [0, 0, 0, 0, 0] # a,b,c,d,e
+# for tc in range(test_case):
+#     N = int(input())
+#     result_list = [0, 0, 0, 0, 0]
+#     for i in range(len(num_list)):
+#         divider = num_list[i]
+#         while N % divider == 0:
+#             N = N // divider
+#             result_list[i] += 1
+    
+#     print(f'#{tc + 1}', end = ' ')
+#     print(*result_list)
+
+# 1928 Base64 Decoder
+# LIF => 01001100 01101001 01100110 => TGIM
+test_case = int(input())
+# base_64 역변환표 문자 -> 숫자
+num_list = [x for x in range(64)]
+word_list = [chr(x) for x in range(65, 91)] + [chr(x) for x in range(97, 123)]\
+            + [str(x) for x in range(10)]  + ['+','/']
+base_64_dict = dict(zip(word_list, num_list))
+
+for tc in range(test_case):
+    given_str = input()
+    bit_string = ''
+    for char in given_str:
+        value = base_64_dict[char]
+        a = format(value, 'b')
+        bit_string += a.zfill(6) # 한 글자당 6비트로 만들어 졌으니까
+
+    print(f'#{tc + 1}', end = ' ')
+    for i in range(len(bit_string)//8): # 8비트씩 읽음
+        a = int(bit_string[8*i: 8*(i+1)], 2) # 2진수 -> 10진수
+        print(chr(a),end='') # 아스키코드에 맞는 문자 출력
+    print() # 줄 바꿈
