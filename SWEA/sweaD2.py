@@ -419,23 +419,87 @@
 
 # 1928 Base64 Decoder
 # LIF => 01001100 01101001 01100110 => TGIM
+# test_case = int(input())
+# # base_64 역변환표 문자 -> 숫자
+# num_list = [x for x in range(64)]
+# word_list = [chr(x) for x in range(65, 91)] + [chr(x) for x in range(97, 123)]\
+#             + [str(x) for x in range(10)]  + ['+','/']
+# base_64_dict = dict(zip(word_list, num_list))
+
+# for tc in range(test_case):
+#     given_str = input()
+#     bit_string = ''
+#     for char in given_str:
+#         value = base_64_dict[char]
+#         a = format(value, 'b')
+#         bit_string += a.zfill(6) # 한 글자당 6비트로 만들어 졌으니까
+
+#     print(f'#{tc + 1}', end = ' ')
+#     for i in range(len(bit_string)//8): # 8비트씩 읽음
+#         a = int(bit_string[8*i: 8*(i+1)], 2) # 2진수 -> 10진수
+#         print(chr(a),end='') # 아스키코드에 맞는 문자 출력
+#     print() # 줄 바꿈
+
+
+# 1288 새로운 불면증 치료법
+# test_case = int(input())
+# for tc in range(test_case):
+#     N = int(input())
+#     add = N
+#     res = set()    
+#     while len(res) < 10:
+#         res.update(list(str(N)))        
+#         N = N + add        
+    
+#     print(f'#{tc + 1} {N-add}')
+
+# 1284. 수도 요금 경쟁
+# test_case = int(input())
+# for tc in range(test_case):    
+#     p, q, r, s, w = map(int,input().split())
+#     company_a_price = w * p
+#     if w < r:
+#         company_b_price = q
+#     else:
+#         company_b_price = q + (w-r)*s
+
+#     if company_a_price > company_b_price:
+#         print(f'#{tc + 1} {company_b_price}')
+#     else:
+#         print(f'#{tc + 1} {company_a_price}')
+# 1204. [S/W 문제해결 기본] 1일차 - 최빈수 구하기
+# from collections import Counter
+# test_case = int(input())
+# for tc in range(test_case):
+#     N = int(input())
+#     num_lst = list(map(int,input().split()))
+#     c1 = Counter(num_lst)
+#     print(f'#{tc + 1} {c1.most_common(1)[0][0]}')
+
+# 1940. 가랏! RC카!
 test_case = int(input())
-# base_64 역변환표 문자 -> 숫자
-num_list = [x for x in range(64)]
-word_list = [chr(x) for x in range(65, 91)] + [chr(x) for x in range(97, 123)]\
-            + [str(x) for x in range(10)]  + ['+','/']
-base_64_dict = dict(zip(word_list, num_list))
-
 for tc in range(test_case):
-    given_str = input()
-    bit_string = ''
-    for char in given_str:
-        value = base_64_dict[char]
-        a = format(value, 'b')
-        bit_string += a.zfill(6) # 한 글자당 6비트로 만들어 졌으니까
+    N = int(input())
+    res_distance = 0
+    vel = 0
+    for _ in range(N):
+        given_command = input()
+        if given_command == '0':
+            command = 0
+            res_distance += vel
+        else: 
+            command, acc = map(int, given_command.split())
+            if command == 1: # 가속
+                vel = vel + acc
+            else: # 감속
+                vel = vel - acc
+                if vel < 0:
+                    vel = 0
+            
+            res_distance += vel
+        
+    print(f'#{tc + 1} {res_distance}')
+            
+    
 
-    print(f'#{tc + 1}', end = ' ')
-    for i in range(len(bit_string)//8): # 8비트씩 읽음
-        a = int(bit_string[8*i: 8*(i+1)], 2) # 2진수 -> 10진수
-        print(chr(a),end='') # 아스키코드에 맞는 문자 출력
-    print() # 줄 바꿈
+

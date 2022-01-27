@@ -339,7 +339,7 @@ class solution_49:
                 graph[neighbor].remove(leaf)
 
                 if len(graph[neighbor]) == 1:
-                    new_leaves.append(neighbor1)
+                    new_leaves.append(neighbor)
 
             leaves = new_leaves
 
