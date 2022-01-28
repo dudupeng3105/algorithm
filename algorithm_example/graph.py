@@ -160,3 +160,29 @@ class Solution_37:
 
 sol = Solution_37()
 print(sol.subsets([1,2,3]))
+
+# 38 일정 재구성
+import collections
+class Solution_38:
+    def find_itinerary(self, tickets: List[List[str]]) -> List[str]:
+        graph = collections.defaultdict(list)
+        # 그래프 순서대로 구성
+        for a, b in sorted(tickets):
+            graph[a].append(b)
+
+        route = []
+
+        def dfs(a):
+            # 첫 번째 값을 읽어 어휘순 방문
+            while graph[a]:
+                dfs(graph[a].pop(0))
+            route.append(a)
+
+        dfs('jfk')
+        print(route)
+        # 다시 뒤집어 어휘순 결과로
+        return route[::-1]
+
+sol = Solution_38()
+tickets = [["muc", "lhr"], ["jfk", "muc"], ["sfo", "sjc"], ["lhr", "sfo"]]
+print(sol.find_itinerary(tickets))
