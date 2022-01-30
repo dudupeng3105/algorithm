@@ -1,16 +1,20 @@
+def dfs(start, sum):
+    global ans
+
+    if start > N:
+        return
+
+    ans = max(ans, sum)
+
+    for i in range(start, N):
+        dfs(i + T[i], sum + P[i])
+
+
 N = int(input())
-T = [0 for x in range(N+1)]
-P = [0 for x in range(N+1)]
-dp = [0 for x in range(N+2)]
-
-for i in range(1, N + 1):
+T = [0 for x in range(15)]
+P = [0 for x in range(15)]
+for i in range(0, N):
     T[i], P[i] = map(int, input().split())
-
-for i in range(N, 0, -1):
-    if T[i] + i > (N + 1):
-        dp[i] = dp[i + 1]
-    else:
-        dp[i] = max(P[i] + dp[i + T[i]], dp[i + 1])
-
-print(dp[1])
-
+ans = 0
+dfs(0, 0)
+print(ans)
