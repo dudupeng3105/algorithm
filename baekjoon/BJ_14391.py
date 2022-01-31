@@ -1,27 +1,34 @@
 N, M = map(int, input().split())
 arr = [[0 for _ in range(M)] for __ in range(N)]
 for i in range(N):
-    arr[i] = list(map(str, input()))
+    arr[i] = list(map(int, input()))
 
-# 가로로 자르기
 result = 0
-temp = 0
-for i in range(N):
-    num_str = ''
-    for e in arr[i]:
-        num_str += e
-    temp += int(num_str)
 
-result = max(temp, result)
+for i in range(2 **(N*M)):
+    total = 0
+    # 가로 계산
+    for row in range(N):
+        sigma_row = 0
+        for col in range(M):
+            position = row * M + col
+            if i & (1 << position) != 0:
+                sigma_row = 10 * sigma_row + arr[row][col]
+            else:
+                total += sigma_row
+                sigma_row = 0
+        total += sigma_row
+    # 세로 계산
+    for col in range(M):
+        sigma_col = 0
+        for row in range(N):
+            position = row * M + col
+            if i & (1 << position) == 0:
+                sigma_col = 10 * sigma_col + arr[row][col]
+            else:
+                total += sigma_col
+                sigma_col = 0
+        total += sigma_col
 
-# 세로로 자르기
-temp = 0
-for i in range(M):
-    num_str = ''
-    for j in range(N):
-        num_str += arr[j][i]
-    temp += int(num_str)
-
-result = max(temp, result)
-
+    result = max(result, total)
 print(result)
