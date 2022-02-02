@@ -1,14 +1,12 @@
 from collections import defaultdict
 
 
-def dfs(start, visited=[]):
+def dfs(start):
+    print(start, end=' ')
     visited.append(start)
-    for man in connected_dict[start]:
-        if man not in visited:
-            visited = dfs(man, visited)
-
-    return print(visited)
-
+    for i in connected_dict[start]:
+        if not i in visited:
+            dfs(i)
 
 def bfs(start):
     discovered = [start]
@@ -18,8 +16,8 @@ def bfs(start):
         for w in connected_dict[v]:
             if w not in discovered:
                 discovered.append(w)
-                queue.append(w)
-    return print(discovered)
+                queue.append(w)    
+    return print(*discovered)
 
 
 N, M, V = map(int, input().split())  # vertax, edge, start
@@ -34,6 +32,8 @@ for _ in range(M):
 
 # dfs 돌리기
 # 시작이 V, DFS
+visited = []
 dfs(V)
+print()
 # BFS
 bfs(V)
