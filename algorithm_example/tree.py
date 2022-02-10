@@ -2,6 +2,7 @@
 #반복 구조로 BFS 풀이
 #BFS 반복구조, BFS는 큐로 구현
 import collections
+import sys
 class treenode:
     def __init__(self, x):
         self.val = x
@@ -359,3 +360,128 @@ class solution_50:
         return node
 
 
+class solution_51:
+    val: int = 0
+    
+    # 이진 탐색 트리에서 더 큰 수 합계 트리로
+    def bstToGst(self, root: treenode) -> treenode:
+        # 중위 순회 노드 값 누적
+        if root:
+            self.bstToGst(root.right)
+            self.val += root.val
+            root.val = self.val
+            self.bstToGst(root.left)
+        
+        return root
+
+# 이진 탐색 트리 합의 범위 L이상 R이하의 값을 가진 노드의 합
+class solution_52_1: # dfs 무지성 풀이법
+    def rangeSumBST(self, root: treenode, L: int, R: int) -> int:
+        if not root:
+            return 0
+
+        return (root.val if L <= root.val <= R else 0) + \
+                self.rangeSumBST(root.left, L, R) + \
+                self.rangeSumBST(root.right, L, R)
+
+class solution_52_2: # dfs 가지치기, 백트래킹, 재귀 구현
+    def rangeSumBST(self, root: treenode, L:int, R:int) -> int:
+        def dfs(node: treenode):
+            if not node:
+                return 0
+            
+            if node.val < L:
+                return dfs(node.right)
+            elif node.val > R:
+                return dfs(node.left)
+            return node.val + dfs(node.left) + dfs(node.right)
+
+        return dfs(root)
+
+
+class solution_52_3: # dfs 가지치기, 백트래킹, 반복(스택) 구현
+    def rangeSumBST(self, root: treenode, L:int, R:int) -> int:
+        stack, sum = [root], 0
+        # 스택 이용 필요한 노드 DFS 반복
+        while stack:
+            node = stack.pop() # 뒤에서 뺌
+            if node:
+                if node.val > L:
+                    stack.append(node.left)
+                if node.val < R:
+                    stack.append(node.right)
+                if L <= node.val <= R:
+                    sum += node.val
+
+        return sum
+
+class solution_52_4: # Bfs, 반복(큐) 구현
+    def rangeSumBST(self, root: treenode, L:int, R:int) -> int:
+        stack, sum = [root], 0
+        # 큐 연산을 이용해 반복 구조 BFS로 필요한 노드 탐색
+        while stack:
+            node = stack.pop(0) # 앞에서부터 뺌
+            if node:
+                if node.val > L:
+                    stack.append(node.left)
+                if node.val < R:
+                    stack.append(node.right)
+                if L <= node.val <= R:
+                    sum += node.val
+        return sum
+
+# 차이가 가장 작은 노드의 차이
+class solution_53_1: # dfs, 재귀
+    prev = -sys.maxsize
+    result = sys.maxsize
+    
+    # 재귀 구조 중위 순회 비교 결과
+    def minDiffInBST(self, root: treenode) -> int:
+        if root.left:
+            self.minDiffInBST(root.left)
+        
+        self.result = min(self.result, root.val - self.prev)
+        self.prev = root.val
+
+        if root.right:
+            self.minDiffInBST(root.right)
+        
+        return self.result
+
+class solution_53_2: # dfs, 반복
+    def minDiffInBST(self, root: treenode) -> int:
+        prev = -sys.maxsize
+        result = sys.maxsize
+
+        stack = []
+        node = root
+
+        # 반복 구조 중위 순회 비교 결과
+        while stack or node:
+            while node:
+                stack.append(node)
+                node = node.left
+
+            node = stack.pop()
+
+            result = min(result, node.val - prev)
+            prev = node.val
+
+            node = node.right
+
+        return result
+
+from typing import List
+class solution_54: # 전위 중위 결과로 -> 트리 구축
+    # divide and conquer
+    def buildTree(self, preorder: List[int], inorder: List[int]) -> treenode:
+        if inorder:
+            # 전위 순회 결과는 중위 순회 분할 인덱스
+            index = inorder.index(preorder.pop(0))
+
+            # 중위 순회 결과 분할 정복
+            node = treenode(inorder[index])
+            node.left = self.buildtree(preorder, inorder[0:index])
+            node.right = self.buildtree(preorder, inorder[index + 1:])
+
+            return node

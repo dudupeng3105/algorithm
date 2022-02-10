@@ -65,3 +65,40 @@
 - 문제 50번 참고 그림
 
 ![Steps](tree.assets/steps.png)
+
+#### 트리 순회
+
+<img src="tree.assets/image-20220210135121881.png" alt="image-20220210135121881" style="zoom: 50%;" />
+
+Depth-first traversal (dotted path) of a binary tree:
+
+- *Pre-order (node visited at position red)*: (**NLR**)
+    F, B, A, D, C, E, G, I, H;
+- *In-order (node visited at position green)*:(**LNR**)
+    A, B, C, D, E, F, G, H, I;
+- *Post-order (node visited at position blue)*:(**LRN**)
+    A, C, E, D, B, H, I, G, F.
+
+```python
+def preorder(node):
+    if node is None:
+        return
+    print(node.val)
+    preorder(node.left)
+    preorder(node.right)
+
+def inorder(node):
+    if node is None:
+        return    
+    inorder(node.left)
+    print(node.val)    
+    inorder(node.right)
+
+def postorder(node):
+    if node is None:
+        return
+    postorder(node.left)
+    postorder(node.right)
+    print(node.val)    
+```
+
