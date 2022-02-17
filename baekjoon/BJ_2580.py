@@ -1,4 +1,5 @@
 import sys
+sys.setrecursionlimit(10**6)
 
 sudoku_map = [[0 for _ in range(9)] for __ in range(9)]
 row_num = [[False for _ in range(10)] for __ in range(9)]
