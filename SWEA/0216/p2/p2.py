@@ -21,7 +21,7 @@ def itoa(num):  # int -> str
     for i in range(digit-1, -1, -1):
         temp = num // (10 ** i)
         num -= temp * (10 ** i)
-        s += chr(temp+48)
+        s += chr(temp+ord('0'))
 
     if minus_checker: # 음수면
         return '-' + s
