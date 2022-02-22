@@ -1,11 +1,11 @@
 test_case = int(input())
 
-
 for tc in range(test_case):
     N = int(input())
     arr = [[0 for _ in range(N)] for __ in range(N)]
     arr[0][0] = 1
     i = 1
+
     while i != N:
         arr[i][0] = 1
         for k in range(1, i + 1):
