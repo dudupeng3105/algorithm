@@ -4,7 +4,6 @@
     <list default="true" id="c22a999c-72a9-4475-b7c4-1de066203721" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/0221/2005_pascal_triangle/2005.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/0221/2005_pascal_triangle/2005.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,106 +27,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SWEA/0222/1234" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SWEA/0223/1223" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0218" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0223\1223" />
+      <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0223\p1_extra" />
+      <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0223\p1" />
       <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0222\1234" />
       <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0222\1219" />
-      <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0222\4871" />
-      <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0222\4873" />
-      <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0221\p3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.BJ_16954">
-    <configuration name="1234" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/0222/1234" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/0222/1234/1234.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="4866" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/0222/4866" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/0222/4866/4866.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="4869" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/0222/4869" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/0222/4869/4869.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="4873" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/0222/4873" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/0222/4873/4873.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="BJ_16954" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.BJ_2527">
+    <configuration name="BJ_1244" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,7 +54,91 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/BJ_16954.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/BJ_1244.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BJ_2304" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/BJ_2304.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BJ_2477" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/BJ_2477.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BJ_2491" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/BJ_2491.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BJ_2527" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/BJ_2527.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.BJ_16954" />
-        <item itemvalue="Python.4869" />
-        <item itemvalue="Python.4866" />
-        <item itemvalue="Python.4873" />
-        <item itemvalue="Python.1234" />
+        <item itemvalue="Python.BJ_2527" />
+        <item itemvalue="Python.BJ_2491" />
+        <item itemvalue="Python.BJ_2477" />
+        <item itemvalue="Python.BJ_2304" />
+        <item itemvalue="Python.BJ_1244" />
       </list>
     </recent_temporary>
   </component>
@@ -178,29 +177,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1645358326941" />
-    <state width="1283" height="189" key="GridCell.Tab.0.bottom" timestamp="1645512105423">
+    <state width="936" height="347" key="GridCell.Tab.0.bottom" timestamp="1645628140872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1238" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-91.1920.1040@-1920.-91.1920.1040" timestamp="1645088105479" />
-    <state width="1283" height="189" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1645512105423" />
+    <state width="1051" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-91.1920.1040@-1920.-91.1920.1040" timestamp="1645591429559" />
+    <state width="936" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1645628140872" />
     <state width="1541" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-91.1920.999@0.0.1920.1040" timestamp="1644997957359" />
-    <state width="1283" height="189" key="GridCell.Tab.0.center" timestamp="1645512105423">
+    <state width="936" height="347" key="GridCell.Tab.0.center" timestamp="1645628140872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1238" height="165" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-91.1920.1040@-1920.-91.1920.1040" timestamp="1645088105479" />
-    <state width="1283" height="189" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1645512105423" />
+    <state width="1051" height="255" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-91.1920.1040@-1920.-91.1920.1040" timestamp="1645591429559" />
+    <state width="936" height="347" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1645628140872" />
     <state width="1541" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-91.1920.999@0.0.1920.1040" timestamp="1644997957359" />
-    <state width="1283" height="189" key="GridCell.Tab.0.left" timestamp="1645512105423">
+    <state width="936" height="347" key="GridCell.Tab.0.left" timestamp="1645628140872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1238" height="165" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-91.1920.1040@-1920.-91.1920.1040" timestamp="1645088105479" />
-    <state width="1283" height="189" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1645512105423" />
+    <state width="1051" height="255" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-91.1920.1040@-1920.-91.1920.1040" timestamp="1645591429559" />
+    <state width="936" height="347" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1645628140872" />
     <state width="1541" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-91.1920.999@0.0.1920.1040" timestamp="1644997957359" />
-    <state width="1283" height="189" key="GridCell.Tab.0.right" timestamp="1645512105423">
+    <state width="936" height="347" key="GridCell.Tab.0.right" timestamp="1645628140872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1238" height="165" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-91.1920.1040@-1920.-91.1920.1040" timestamp="1645088105479" />
-    <state width="1283" height="189" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1645512105423" />
+    <state width="1051" height="255" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-91.1920.1040@-1920.-91.1920.1040" timestamp="1645591429559" />
+    <state width="936" height="347" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1645628140872" />
     <state width="1541" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-91.1920.999@0.0.1920.1040" timestamp="1644997957359" />
     <state x="0" y="0" width="950" height="1003" key="dock-window-1" timestamp="1645166831563">
       <screen x="0" y="0" width="1920" height="1040" />
