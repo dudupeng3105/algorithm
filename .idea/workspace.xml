@@ -27,22 +27,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SWEA/0223/1223" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SWEA/0224/4880_tournament" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0224\4880_tournament" />
+      <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0224\4881_array_minimum_sum" />
+      <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0224\1224_calculator_3" />
+      <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0224\4875_maze" />
+      <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0224\4874_Forth" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0224\1224_calculator_3" />
       <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0218" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0223\1223" />
-      <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0223\p1_extra" />
-      <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0223\p1" />
-      <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0222\1234" />
-      <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0222\1219" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.BJ_2527">
-    <configuration name="BJ_1244" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.BJ_2116">
+    <configuration name="BJ_10158" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,7 +55,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/BJ_1244.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/BJ_10158.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -63,7 +64,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BJ_2304" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="BJ_10163" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,7 +76,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/BJ_2304.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/BJ_10163.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BJ_2477" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="BJ_13300" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,7 +97,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/BJ_2477.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/BJ_13300.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BJ_2491" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="BJ_14696" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,7 +118,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/BJ_2491.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/BJ_14696.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BJ_2527" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="BJ_2116" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,7 +139,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/BJ_2527.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/BJ_2116.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.BJ_2527" />
-        <item itemvalue="Python.BJ_2491" />
-        <item itemvalue="Python.BJ_2477" />
-        <item itemvalue="Python.BJ_2304" />
-        <item itemvalue="Python.BJ_1244" />
+        <item itemvalue="Python.BJ_2116" />
+        <item itemvalue="Python.BJ_10158" />
+        <item itemvalue="Python.BJ_14696" />
+        <item itemvalue="Python.BJ_13300" />
+        <item itemvalue="Python.BJ_10163" />
       </list>
     </recent_temporary>
   </component>
@@ -177,37 +178,41 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1645358326941" />
-    <state width="936" height="347" key="GridCell.Tab.0.bottom" timestamp="1645628140872">
+    <state width="936" height="185" key="GridCell.Tab.0.bottom" timestamp="1645709118143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1051" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-91.1920.1040@-1920.-91.1920.1040" timestamp="1645591429559" />
-    <state width="936" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1645628140872" />
+    <state width="936" height="185" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1645709118143" />
     <state width="1541" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-91.1920.999@0.0.1920.1040" timestamp="1644997957359" />
-    <state width="936" height="347" key="GridCell.Tab.0.center" timestamp="1645628140872">
+    <state width="936" height="185" key="GridCell.Tab.0.center" timestamp="1645709118143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1051" height="255" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-91.1920.1040@-1920.-91.1920.1040" timestamp="1645591429559" />
-    <state width="936" height="347" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1645628140872" />
+    <state width="936" height="185" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1645709118143" />
     <state width="1541" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-91.1920.999@0.0.1920.1040" timestamp="1644997957359" />
-    <state width="936" height="347" key="GridCell.Tab.0.left" timestamp="1645628140872">
+    <state width="936" height="185" key="GridCell.Tab.0.left" timestamp="1645709118143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1051" height="255" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-91.1920.1040@-1920.-91.1920.1040" timestamp="1645591429559" />
-    <state width="936" height="347" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1645628140872" />
+    <state width="936" height="185" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1645709118143" />
     <state width="1541" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-91.1920.999@0.0.1920.1040" timestamp="1644997957359" />
-    <state width="936" height="347" key="GridCell.Tab.0.right" timestamp="1645628140872">
+    <state width="936" height="185" key="GridCell.Tab.0.right" timestamp="1645709118143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1051" height="255" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-91.1920.1040@-1920.-91.1920.1040" timestamp="1645591429559" />
-    <state width="936" height="347" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1645628140872" />
+    <state width="936" height="185" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1645709118143" />
     <state width="1541" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-91.1920.999@0.0.1920.1040" timestamp="1644997957359" />
+    <state x="985" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1645671897980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="985" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1645671897980" />
     <state x="0" y="0" width="950" height="1003" key="dock-window-1" timestamp="1645166831563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" width="950" height="1003" key="dock-window-1/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1645166831563" />
-    <state x="1045" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1645158838594">
+    <state x="1045" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1645668447104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1045" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1645158838594" />
+    <state x="1045" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1645668447104" />
   </component>
 </project>
