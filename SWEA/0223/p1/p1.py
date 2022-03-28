@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin = open("test.txt")
+sys.stdin = open("0223\\p1\\test.txt")
 
 test_case = int(input())
 for tc in range(1, test_case + 1):
