@@ -61,9 +61,9 @@ for i in range(n):
 
         cnt += 1
 
-# for i in range(n):
-#     print(horizon_dp[i])
-# print()
+for i in range(n):
+    print(horizon_dp[i])
+print()
 
 # 세로 체크
 for j in range(n):
@@ -104,9 +104,9 @@ for j in range(n):
                 vertical_dp[i][j] = 0
                 white_flag = 0
 
-# for i in range(n):
-#     print(vertical_dp[i])
-# print()
+for i in range(n):
+    print(vertical_dp[i])
+print()
 
 # 대각 체크(좌상 부분)
 d = [-1, 1]
@@ -152,9 +152,9 @@ for i in range(n):
 
         i, j = i + d[0], j + d[1]
 
-# for i in range(n):
-#     print(diagonal_dp[i])
-# print()
+for i in range(n):
+    print(diagonal_dp[i])
+print()
 
 # 대각 부분(우하)
 d = [-1, 1]
@@ -200,9 +200,9 @@ for j in range(1, n):
 
         i, j = i + d[0], j + d[1]
 
-# for i in range(n):
-#     print(diagonal_dp[i])
-# print()
+for i in range(n):
+    print(diagonal_dp[i])
+print()
 
 # 역대각 체크(우상 부분)
 d = [1, 1] # 오른쪽 아래방향 대각선 진행
@@ -249,6 +249,10 @@ for j in range(n):
         i, j = i + d[0], j + d[1]
 
 
+for i in range(n):
+    print(r_diagonal_dp[i])
+print()
+
 # 역대각 체크(좌하 부분)
 d = [1, 1]  # 오른쪽 아래방향 대각선 진행
 for i in range(1, n):
@@ -293,9 +297,9 @@ for i in range(1, n):
 
         i, j = i + d[0], j + d[1]
 #
-# for i in range(n):
-#     print(r_diagonal_dp[i])
-# print()
+for i in range(n):
+    print(r_diagonal_dp[i])
+print()
 
 
 # max 값 구하기
