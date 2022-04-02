@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c22a999c-72a9-4475-b7c4-1de066203721" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SWEA/yeonsupzang.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon/BJ_23353.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/BJ_23353.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon/yeonsupzang.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss.c" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="25Ae3fsbEv87dr5JSk9bCCLiijg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,7 +50,7 @@
       <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0317\extra" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1865">
+  <component name="RunManager" selected="Python.5247">
     <configuration name="1865" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,27 +64,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/0331/1865_동철이의일분배/1865.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5205" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/0331/5205_퀵정렬" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/0331/5205_퀵정렬/5205.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,6 +93,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="5247" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/0401/5247_연산" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/0401/5247_연산/5247.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="BJ_1963" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="yeonsupzang" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="p2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,11 +143,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/0401/p2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\dongu\Desktop\algorithm\SWEA\yeonsupzang.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/0401/p2/p2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5247" />
+        <item itemvalue="Python.p2" />
         <item itemvalue="Python.1865" />
         <item itemvalue="Python.5208" />
         <item itemvalue="Python.BJ_1963" />
-        <item itemvalue="Python.yeonsupzang" />
-        <item itemvalue="Python.5205" />
       </list>
     </recent_temporary>
   </component>
@@ -185,29 +186,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1648391339055" />
-    <state width="1824" height="219" key="GridCell.Tab.0.bottom" timestamp="1648717057908">
+    <state width="1125" height="215" key="GridCell.Tab.0.bottom" timestamp="1648788453969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1118" height="10" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-91.1920.1040@-1920.-91.1920.1040" timestamp="1648602113404" />
-    <state width="1824" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1648717057908" />
+    <state width="1125" height="215" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1648788453969" />
     <state width="1541" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-91.1920.999@0.0.1920.1040" timestamp="1644997957359" />
-    <state width="1824" height="219" key="GridCell.Tab.0.center" timestamp="1648717057908">
+    <state width="1125" height="215" key="GridCell.Tab.0.center" timestamp="1648788453969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1118" height="10" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-91.1920.1040@-1920.-91.1920.1040" timestamp="1648602113404" />
-    <state width="1824" height="219" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1648717057908" />
+    <state width="1125" height="215" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1648788453969" />
     <state width="1541" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-91.1920.999@0.0.1920.1040" timestamp="1644997957359" />
-    <state width="1824" height="219" key="GridCell.Tab.0.left" timestamp="1648717057908">
+    <state width="1125" height="215" key="GridCell.Tab.0.left" timestamp="1648788453969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1118" height="10" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-91.1920.1040@-1920.-91.1920.1040" timestamp="1648602113404" />
-    <state width="1824" height="219" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1648717057908" />
+    <state width="1125" height="215" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1648788453969" />
     <state width="1541" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-91.1920.999@0.0.1920.1040" timestamp="1644997957359" />
-    <state width="1824" height="219" key="GridCell.Tab.0.right" timestamp="1648717057908">
+    <state width="1125" height="215" key="GridCell.Tab.0.right" timestamp="1648788453969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1118" height="10" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-91.1920.1040@-1920.-91.1920.1040" timestamp="1648602113404" />
-    <state width="1824" height="219" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1648717057908" />
+    <state width="1125" height="215" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1648788453969" />
     <state width="1541" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-91.1920.999@0.0.1920.1040" timestamp="1644997957359" />
     <state x="463" y="168" key="SettingsEditor" timestamp="1648185114654">
       <screen x="0" y="0" width="1920" height="1040" />
