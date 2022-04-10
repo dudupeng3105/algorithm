@@ -19,7 +19,7 @@ def operation(op, n):
 def bfs(a):
     q = deque()
     q.append((a, 0))
-    visited = [False for _ in range(-10, 2*b + 1)]
+    visited = [False for _ in range(1000001)]
     visited[a] = True
     while q:
         num, cnt = q.popleft()
@@ -27,7 +27,7 @@ def bfs(a):
             next_num = operation(i, num)
             if next_num == b:
                 return cnt + 1
-            if -10 <= next_num <= 2*b and not visited[next_num]:
+            if 0 <= next_num <= 1000000 and not visited[next_num]:
                 visited[next_num] = True
                 q.append((next_num, cnt + 1))
 
