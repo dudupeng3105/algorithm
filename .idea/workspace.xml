@@ -4,6 +4,7 @@
     <list default="true" id="c22a999c-72a9-4475-b7c4-1de066203721" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm_example/tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm_example/tree.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/SWEA/0317/5177_binary_heap" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -49,8 +50,8 @@
       <recent name="C:\Users\dongu\Desktop\algorithm\SWEA\0317\extra" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.month_test">
-    <configuration name="1865" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.BJ_7579">
+    <configuration name="BJ_2252" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,11 +59,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/0331/1865_동철이의일분배" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/0331/1865_동철이의일분배/1865.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/BJ_2252.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -71,7 +72,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5208" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="BJ_2342" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,11 +80,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/0331/5208_전기버스2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/0331/5208_전기버스2/5208.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/BJ_2342.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5247" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="BJ_7579" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,11 +101,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/0401/5247_연산" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/0401/5247_연산/5247.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/BJ_7579.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="p2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="n05.나보다_나은_우리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,11 +143,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/0401/p2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/0603" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/0401/p2/p2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/0603/n05.나보다_나은_우리.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BJ_7579" />
+        <item itemvalue="Python.n05.나보다_나은_우리" />
+        <item itemvalue="Python.BJ_2342" />
+        <item itemvalue="Python.BJ_2252" />
         <item itemvalue="Python.month_test" />
-        <item itemvalue="Python.5247" />
-        <item itemvalue="Python.p2" />
-        <item itemvalue="Python.1865" />
-        <item itemvalue="Python.5208" />
       </list>
     </recent_temporary>
   </component>
@@ -177,45 +178,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1091" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1644997129514">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1091" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.-91.1920.999@0.0.1920.1040" timestamp="1644997129514" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1648391339055">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1648391339055" />
-    <state width="988" height="275" key="GridCell.Tab.0.bottom" timestamp="1648978967362">
+    <state width="1082" height="347" key="GridCell.Tab.0.bottom" timestamp="1654257322163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="988" height="275" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1648978967362" />
+    <state width="1082" height="347" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1654257322163" />
     <state width="1118" height="10" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-91.1920.1040@-1920.-91.1920.1040" timestamp="1648602113404" />
     <state width="1125" height="215" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1648788453969" />
-    <state width="1541" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-91.1920.999@0.0.1920.1040" timestamp="1644997957359" />
-    <state width="988" height="275" key="GridCell.Tab.0.center" timestamp="1648978967362">
+    <state width="1082" height="347" key="GridCell.Tab.0.center" timestamp="1654257322163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="988" height="275" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1648978967362" />
+    <state width="1082" height="347" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1654257322163" />
     <state width="1118" height="10" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-91.1920.1040@-1920.-91.1920.1040" timestamp="1648602113404" />
     <state width="1125" height="215" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1648788453969" />
-    <state width="1541" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-91.1920.999@0.0.1920.1040" timestamp="1644997957359" />
-    <state width="988" height="275" key="GridCell.Tab.0.left" timestamp="1648978967362">
+    <state width="1082" height="347" key="GridCell.Tab.0.left" timestamp="1654257322163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="988" height="275" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1648978967362" />
+    <state width="1082" height="347" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1654257322163" />
     <state width="1118" height="10" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-91.1920.1040@-1920.-91.1920.1040" timestamp="1648602113404" />
     <state width="1125" height="215" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1648788453969" />
-    <state width="1541" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-91.1920.999@0.0.1920.1040" timestamp="1644997957359" />
-    <state width="988" height="275" key="GridCell.Tab.0.right" timestamp="1648978967362">
+    <state width="1082" height="347" key="GridCell.Tab.0.right" timestamp="1654257322163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="988" height="275" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1648978967362" />
+    <state width="1082" height="347" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1654257322163" />
     <state width="1118" height="10" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-91.1920.1040@-1920.-91.1920.1040" timestamp="1648602113404" />
     <state width="1125" height="215" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1648788453969" />
-    <state width="1541" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-91.1920.999@0.0.1920.1040" timestamp="1644997957359" />
-    <state x="463" y="168" key="SettingsEditor" timestamp="1648185114654">
+    <state x="463" y="168" key="SettingsEditor" timestamp="1654220493941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="463" y="168" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1654220493941" />
     <state x="463" y="168" key="SettingsEditor/0.0.1920.1040/-1920.-91.1920.1040@0.0.1920.1040" timestamp="1648185114654" />
     <state x="985" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1645671897980">
       <screen x="0" y="0" width="1920" height="1040" />
