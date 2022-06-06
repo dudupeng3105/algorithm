@@ -1,7 +1,9 @@
-import random
+people_lst = [0 for _ in range(N)]
 
-lst = []
-for _ in range(15):
-    lst.append(random.randrange(1, 20))
+for a, b in trust:
+    people_lst[b] += 1
 
-print(lst)
+for i in range(N):
+    if people_lst[i] == N-1:
+        print(i+1)
+        break
