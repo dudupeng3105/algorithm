@@ -33,7 +33,7 @@
 
 **Valid and Invalid Structure of Complete Binary Tree**
 
-![img](tree.assets/1EgcvwUHXnmdOpbHQwgCknA.png)
+![img](tree.assets/1EgcvwUHXnmdOpbHQwgCknA-16489718674251.png)
 
 **Valid and Invalid Structure of Perfect Binary Tree**
 
