@@ -1,5 +1,5 @@
 import sys
-
+# 마니또, 사이클 문제
 input = sys.stdin.readline
 
 
@@ -33,6 +33,7 @@ while True:
     if not n:
         break
 
+    # 문자열이라서 dict로 했음
     graph = dict()
     parent = dict()
     rank = dict()
@@ -42,14 +43,15 @@ while True:
         make_set(a)
         graph[a] = b
 
-    # 연결
+    # 연결하면서 사이클 체크
     cnt = 0
     for start in graph.keys():
         end = graph[start]
+
         if find(start) != find(end):
             union(start, end)
-        else:
-            # 사이클
+        else:  # 지금 연결하려는 데 부모가 같으면 사이클이 형성됨
+            # 마니또 체인 + 1
             cnt += 1
 
     print(tc, cnt)
