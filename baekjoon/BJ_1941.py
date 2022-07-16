@@ -1,52 +1,67 @@
+# 칠공주
 import sys
+from itertools import combinations
+from collections import deque
 
 input = sys.stdin.readline
 
-arr = [input().rstrip() for _ in range(5)]
-# 7명
-# 인접해야함
-# S가 4개 이상
-# 오른쪽, 아래 탐색
-dr = [0, 1]
-dc = [1, 0]
+
+# 조합에 도연팀이 4명 이상있으면 안됨
+# 그걸 체크
+def cal_yeon(el):
+    num_y = 0
+    for x, y in el:
+        if graph[x][y] == 'Y':
+            num_y += 1
+
+    if num_y > 3:
+        return False
+    else:
+        return True
 
 
-def dfs(r, c, depth, y_cnt, visited):
-    global cnt
-    print(r, c)
-    if y_cnt > 3:
-        return
-    if depth == 7:
-        cnt += 1
-        print("답", visited)
-        return
+# 조합이 인접한 사람들로 이루어져있는지 bfs로 체크
+def check(el):
+    visited = [False for _ in range(7)]
+    q = deque()
+    q.append(el[0])
+    visited[0] = True
 
-    # 들어가기
-    n_r, n_c = r + dr[0], c + dc[0]
-    if 0 <= n_r < 5 and 0 <= n_c < 5:
-        if [n_r, n_c] not in visited:
-            if arr[n_r][n_c] == 'Y':
-                dfs(n_r, n_c, depth + 1, y_cnt + 1, visited + [[n_r, n_c]])
-            else:
-                dfs(n_r, n_c, depth + 1, y_cnt, visited + [[n_r, n_c]])
+    while q:
+        x, y = q.popleft()
+        for d in dxy:
+            n_x = x + d[0]
+            n_y = y + d[1]
+            # 현재 위치에서 인접한 점이 조합에 있다면
+            # 인덱스를 찾아서 방문처리해줌
+            # 조합에 없으면 다음으로 넘어감
+            if (n_x, n_y) in el:
+                next_idx = el.index((n_x, n_y))
+                if not visited[next_idx]:
+                    q.append((n_x, n_y))
+                    visited[next_idx] = True
 
-    n_r, n_c = r + dr[1], c + dc[1]
-    if 0 <= n_r < 5 and 0 <= n_c < 5:
-        if [n_r, n_c] not in visited:
-            if arr[n_r][n_c] == 'Y':
-                dfs(n_r, n_c, depth + 1, y_cnt + 1, visited + [[n_r, n_c]])
-            else:
-                dfs(n_r, n_c, depth + 1, y_cnt, visited + [[n_r, n_c]])
-
-    return
+    # bfs 탐색을 다했는데 조합에 있는 점을 모두 방문했으면 인접해있음
+    # 아니면 False
+    if False in visited:
+        return False
+    else:
+        return True
 
 
-cnt = 0
-# for i in range(5):
-#     for j in range(5):
-if arr[1][0] == 'Y':
-    dfs(1, 0, 1, 1, [[1, 0]])
-else:
-    dfs(1, 0, 1, 0, [[1, 0]])
+dxy = [(-1, 0), (1, 0), (0, -1), (0, 1)]
+positions = [(i, j) for i in range(5) for j in range(5)]
+combi = list(combinations(positions, 7))
+graph = [input().rstrip() for _ in range(5)]
+ans = 0
 
-print(cnt)
+# 조합을 돌면서
+# 40만개
+# 1. 도연팀멤버의 수 체크 4명이상이면 볼 필요없음
+# 2. 인접한지 체크해서 인접하면 ans ++
+for combi_el in combi:
+    if cal_yeon(combi_el):
+        if check(combi_el):
+            ans += 1
+
+print(ans)
