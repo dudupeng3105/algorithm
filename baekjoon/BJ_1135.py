@@ -1,3 +1,4 @@
+# 뉴스전하기
 import sys
 input = sys.stdin.readline
 
@@ -27,5 +28,7 @@ def dfs(node):
 
 
 dfs(0)
+for i in range(n+1):
+    print(i, time[i])
 # print(time)
 print(time[0])

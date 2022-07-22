@@ -1,3 +1,4 @@
+# 함께 블록 쌓기
 import sys
 
 input = sys.stdin.readline
@@ -11,21 +12,21 @@ for i in range(n):
 
 cnt = [0 for _ in range(h + 1)]
 
-for i in range(n):
-    new_cnt = cnt[::]
+for i in range(n):   # 1번학생.. 2번학생.. 3번학생..
+    new_cnt = cnt[::]   # 새로운 배열을 만들어서 업데이트 하는 방식으로 함
 
     for num in arr[i]:
-        new_cnt[num] += 1
+        new_cnt[num] += 1   # 일단 1 +
 
-        for j in range(h - num):
+        for j in range(h - num):   # h-num을 더하면 h가 되므로 그 이상은 할 필요가 없다
             if cnt[j + 1]:
-                new_cnt[num + j + 1] = new_cnt[num + j + 1] + cnt[j + 1]
+                new_cnt[num + j + 1] = new_cnt[num + j + 1] + cnt[j + 1]  # (j + 1) + num => num + j + 1
 
     cnt = new_cnt[::]
 
-print(cnt[-1] % 10007)
+print(cnt[-1] % 10007)  # 마지막이 h임
 
-# # dfs쓸거임
+# # dfs 실패!
 # def dfs(summ, depth):
 #
 #     global cnt, h

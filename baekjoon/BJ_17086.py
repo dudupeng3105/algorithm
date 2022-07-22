@@ -1,3 +1,5 @@
+# 아기 상어
+
 import sys
 from collections import deque
 input = sys.stdin.readline
@@ -17,18 +19,18 @@ def bfs(row, col):
             n_r, n_c = o_r + dr, o_c + dc
             if 0 <= n_r < r and 0 <= n_c < c and not visited[n_r][n_c]:
                 visited[n_r][n_c] = visited[o_r][o_c] + 1
+                # 상어 만나면 끝내면됨(가장 가까이 있는 상어 -> 안전거리)
                 if arr[n_r][n_c]:
-                    for i in range(r):
-                        print(visited[i])
-                    return visited[n_r][n_c] - 2
+                    return visited[n_r][n_c] - 1
                 q.append((n_r, n_c))
 
 ans = 0
 for i in range(r):
     for j in range(c):
-        if arr[i][j]:
+        # 0 에서만 출발
+        if not arr[i][j]:
             temp = bfs(i, j)
-            print(temp)
+            # 최장 거리 구함
             if temp > ans:
                 ans = temp
 

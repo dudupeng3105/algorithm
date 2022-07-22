@@ -1,3 +1,5 @@
+# 단축키 지정
+
 import sys
 
 input = sys.stdin.readline
