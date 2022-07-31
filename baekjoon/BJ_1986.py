@@ -1,5 +1,5 @@
 import sys
-
+# 체스
 input = sys.stdin.readline
 
 N, M = map(int, input().split())
@@ -49,6 +49,7 @@ for i in range(N):
 
         else:  # 3
             safe_zone[i][j] = True
+            # n_r = new_row, new_col 이게 근본.
 
 # 개수 구하기
 ans = 0

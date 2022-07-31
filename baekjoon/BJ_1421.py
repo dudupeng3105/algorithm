@@ -1,5 +1,5 @@
 import sys
-
+# 나무꾼 이다솜
 input = sys.stdin.readline
 
 n, c, w = map(int, input().split())
@@ -15,11 +15,11 @@ for l in range(1, last + 1):
     for tree in arr:
         piece = tree // l
         if tree % l == 0:  # 나누어 떨어짐
-            if piece * w * l - (piece-1) * c > 0:
+            if piece * w * l - (piece-1) * c > 0: # 16 -> 4 / 4 / 4 /4 -> cut 3, piece 4
                 piece_cnt += piece
                 cut += piece - 1
         else:
-            if piece * w * l - piece * c > 0:
+            if piece * w * l - piece * c > 0:  # 15 4 / 4 / 4 / 3 -> cut 3, piece 3
                 piece_cnt += piece
                 cut += piece
 
