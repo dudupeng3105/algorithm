@@ -1,3 +1,4 @@
+# 게임 개발자 승희
 import sys
 
 input = sys.stdin.readline

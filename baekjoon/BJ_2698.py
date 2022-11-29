@@ -1,3 +1,4 @@
+# 2698 인접한 비트의 개수
 import sys
 input = sys.stdin.readline
 

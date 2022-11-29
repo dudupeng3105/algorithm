@@ -8,7 +8,7 @@
 #             break   # j for 문 탈출
 #         else:
 #             cnt_lst[num] += 1
-
+# 1300 k 번째 수
 import sys
 input = sys.stdin.readline
 

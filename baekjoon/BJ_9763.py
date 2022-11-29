@@ -1,3 +1,4 @@
+# 9763 마을의 친밀도
 import sys
 
 input = sys.stdin.readline
