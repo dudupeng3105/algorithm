@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4201ad13-c88d-469e-8f28-0a2888854ac5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BJ_1976.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BJ_10817.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/baekjoon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/baekjoon.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -34,15 +34,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/dudupeng/Desktop/algorithm/baekjoon",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Python"
-  }
-}]]></component>
-  <component name="RunManager" selected="Python.BJ_1976">
+  <component name="RunManager" selected="Python.BJ_10817">
+    <configuration name="BJ_10817" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="baekjoon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BJ_10817.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="BJ_17281" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,34 +140,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BJ_3649" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="baekjoon" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BJ_3649.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BJ_10817" />
         <item itemvalue="Python.BJ_1976" />
         <item itemvalue="Python.BJ_17471" />
         <item itemvalue="Python.BJ_2174" />
         <item itemvalue="Python.BJ_17281" />
-        <item itemvalue="Python.BJ_3649" />
       </list>
     </recent_temporary>
   </component>
@@ -171,5 +163,23 @@
       <updated>1669702130099</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="936" height="173" key="GridCell.Tab.0.bottom" timestamp="1676789903980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="173" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1676789903980" />
+    <state width="936" height="173" key="GridCell.Tab.0.center" timestamp="1676789903980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="173" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1676789903980" />
+    <state width="936" height="173" key="GridCell.Tab.0.left" timestamp="1676789903980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="173" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1676789903980" />
+    <state width="936" height="173" key="GridCell.Tab.0.right" timestamp="1676789903980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="173" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1676789903980" />
   </component>
 </project>
